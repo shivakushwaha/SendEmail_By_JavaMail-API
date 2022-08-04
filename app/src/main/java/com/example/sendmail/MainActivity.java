@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i("MainActivity", "Send Button Clicked.");
 
-                String fromEmail = "kushwaha143shiva@gmail.com";
-                String fromPassword = "nfozjglkyoeaqziy";
+                String fromEmail = "userEmail@gmail.com";
+                String fromPassword = "userPassword";
                 String toEmails = ((TextView) findViewById(R.id.editText3))
                         .getText().toString();
                 List<String> toEmailList = Arrays.asList(toEmails
